@@ -13,7 +13,7 @@
 
     h1 {
         color: rgb(236, 229, 15);
-        /* text-align: center; */
+        text-align: left;
     }
 
     h2 {
@@ -31,6 +31,19 @@
         width: 40%;
         padding: 25px;
         margin: 10px;
+        font-family: open Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .e {
+        border-radius: 35px;
+        float: right;
+        /* text-align: justify; */
+        background: #73AD21;
+        width: 40%;
+        padding: 25px;
+        margin: 30px;
         font-family: open Arial, Helvetica, sans-serif;
         font-size: 18px;
         text-align: left;
@@ -65,5 +78,11 @@
     .d {
         text-align: right;
         width: 65%;
+        margin: 10px;
+    }
+
+    .f {
+        text-align: right;
+        width: 70%;
         margin: 10px;
     }
